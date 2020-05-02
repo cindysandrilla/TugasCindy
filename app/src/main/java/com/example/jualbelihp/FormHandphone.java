@@ -93,7 +93,7 @@ public class FormHandphone extends AppCompatActivity {
             task.showdialog = true;
             task.message = "Proses Submit Data Harap Tunggu..";
             task.applicationContext = FormHandphone.this;
-            task.url_server = "urlSubmit";
+            task.mNoteItWebUrl =urlSubmit;
             task.execute();
         } catch (Exception e) {
             e.printStackTrace();
